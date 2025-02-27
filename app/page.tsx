@@ -100,46 +100,48 @@ export default function LandingPage() {
           </div>
         </section>
 
-        {/* How It Works Section */}
-        <section className="container py-24 mt-24">
-          <div className="mx-auto max-w-4xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight">How It Works</h2>
-            <p className="mt-4 text-muted-foreground">
-              Our AI assistant handles your calls and appointments in three simple steps
-            </p>
-          </div>
-          <div className="grid gap-12 md:grid-cols-3 mt-12">
-            <div className="gradient-border">
-              <div className="flex flex-col items-center space-y-4 bg-background p-6">
-                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
-                  <Phone className="h-8 w-8 text-primary" />
-                </div>
-                <h3 className="text-xl font-bold">AI Answers Calls</h3>
-                <p className="text-center text-muted-foreground">
-                  Handles customer inquiries 24/7, never missing an opportunity to connect.
-                </p>
-              </div>
+        {/* How it Works Section */}
+        <section className="w-full py-24 mt-24 bg-muted">
+          <div className="container">
+            <div className="mx-auto max-w-4xl text-center">
+              <h2 className="text-3xl font-bold tracking-tight">How It Works</h2>
+              <p className="mt-4 text-muted-foreground">
+                Our AI assistant handles your calls and appointments in three simple steps
+              </p>
             </div>
-            <div className="gradient-border">
-              <div className="flex flex-col items-center space-y-4 bg-background p-6">
-                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
-                  <Calendar className="h-8 w-8 text-primary" />
+            <div className="grid gap-12 md:grid-cols-3 mt-12">
+              <div className="gradient-border">
+                <div className="flex flex-col items-center space-y-4 bg-background p-6">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
+                    <Phone className="h-8 w-8 text-primary" />
+                  </div>
+                  <h3 className="text-xl font-bold">AI Answers Calls</h3>
+                  <p className="text-center text-muted-foreground">
+                    Handles customer inquiries 24/7, never missing an opportunity to connect.
+                  </p>
                 </div>
-                <h3 className="text-xl font-bold">Schedules Appointments</h3>
-                <p className="text-center text-muted-foreground">
-                  Automates bookings & reschedules, syncing directly with your calendar.
-                </p>
               </div>
-            </div>
-            <div className="gradient-border">
-              <div className="flex flex-col items-center space-y-4 bg-background p-6">
-                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
-                  <Bell className="h-8 w-8 text-primary" />
+              <div className="gradient-border">
+                <div className="flex flex-col items-center space-y-4 bg-background p-6">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
+                    <Calendar className="h-8 w-8 text-primary" />
+                  </div>
+                  <h3 className="text-xl font-bold">Schedules Appointments</h3>
+                  <p className="text-center text-muted-foreground">
+                    Automates bookings & reschedules, syncing directly with your calendar.
+                  </p>
                 </div>
-                <h3 className="text-xl font-bold">Sends Reminders</h3>
-                <p className="text-center text-muted-foreground">
-                  Reduces no-shows with automated texts/calls, keeping your schedule full.
-                </p>
+              </div>
+              <div className="gradient-border">
+                <div className="flex flex-col items-center space-y-4 bg-background p-6">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
+                    <Bell className="h-8 w-8 text-primary" />
+                  </div>
+                  <h3 className="text-xl font-bold">Sends Reminders</h3>
+                  <p className="text-center text-muted-foreground">
+                    Reduces no-shows with automated texts/calls, keeping your schedule full.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
